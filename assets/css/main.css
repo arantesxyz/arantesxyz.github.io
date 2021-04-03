@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap");
+
+:root {
+    --bg-text: #e4e4e4;
+    --text: #383838;
+    --highlight: #ef233c;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+    color: var(--text);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+
+    text-align: center;
+
+    margin: 0 200px;
+}
+
+.intro {
+    margin-top: 30vh;
+    padding: 0 10vw;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.highlight {
+    color: var(--highlight);
+}
+
+.line {
+    margin: -3px auto 14px;
+
+    content: " ";
+    width: 5vw;
+    height: 1px;
+
+    background-color: black;
+}
+
+p {
+    font-weight: 500;
+}
+
+.mobile-under-development {
+    display: none;
+
+    position: absolute;
+    top: 0;
+
+    width: 100%;
+
+    text-align: center;
+    color: #fff;
+
+    font-size: 14px;
+    font-weight: 400;
+
+    background-color: var(--highlight);
+}
+
+.mobile-under-development p {
+    margin: 8px 0;
+}
+
+.background {
+    position: absolute;
+    top: 162px;
+
+    margin-left: -280px;
+
+    z-index: -1;
+}
+
+.background h1 {
+    font-weight: 800;
+    font-size: 210px;
+
+    color: var(--bg-text);
+    opacity: 57%;
+}
+
+.temp-contact {
+    font-size: 14px;
+    font-weight: 400;
+
+    margin-top: 40px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .mobile-under-development {
+        display: initial;
+    }
+}
