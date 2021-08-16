@@ -6,8 +6,7 @@ for (element of document.getElementsByClassName("copytext")) {
 function onClickCopy({ target }) {
   const { innerHTML } = target;
 
-  const textToCopy = target.innerText
-  copy(textToCopy)
+  copy(target.innerText)
 
   target.innerText = "Copied!"
   setTimeout(() => {
