@@ -1,3 +1,6 @@
 # Arantes Dev
 
-My personal website available in https://arantes.dev/
+Check it out on https://arantes.dev/
+
+## Credits
+This code was based on https://github.com/sethcottle/littlelink
