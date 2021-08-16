@@ -4,7 +4,6 @@ for (element of document.getElementsByClassName("copytext")) {
 
 
 function onClickCopy({ target }) {
-  document.execCommand("copy")
   const { innerHTML } = target;
 
   const textToCopy = target.innerText
