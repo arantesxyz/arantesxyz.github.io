@@ -2,7 +2,6 @@ for (element of document.getElementsByClassName("copytext")) {
   element.addEventListener("click", onClickCopy)
 }
 
-
 function onClickCopy({ target }) {
   const { innerHTML } = target;
 
